@@ -1,0 +1,122 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>CORTES DEL SURESTE - Fag </title>
+    <link rel="icon" type="image/x-icon" href="images/icocarne.jpg">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <link href='http://fonts.googleapis.com/css?family=Arimo:400,700' rel='stylesheet' type='text/css'>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/skel.min.js"></script>
+    <script src="js/skel-panels.min.js"></script>
+    <script src="js/init.js"></script>
+    <noscript>
+			<link rel="stylesheet" href="css/skel-noscript.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-desktop.css" />
+		</noscript>
+
+</head>
+
+<body>
+
+
+    <div id="header">
+        <div class="container">
+
+
+            <div id="logo">
+                <h1><a href="index.html">Cortes del sureste</a></h1>
+                <span>Los mejores cortes de la region</span>
+            </div>
+
+
+            <nav id="nav">
+                <ul>
+                    <li><a href="index.html">INCIO</a></li>
+                    <li><a href="producto.html">PRODUCTOS</a></li>
+                    <li class="active"><a href="Fag.html">Preguntas frecuentes</a></li>
+                    <li id="login-link"><a href="login.html">Login</a></li>
+                    <li id="register-link"><a href="register.html">Registro</a></li>
+                    <li id="me"><a href="yo.html">Yo</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+
+    <div id="main">
+        <div class="container">
+            <div class="row">
+
+                <div id="content" class="8u skel-cell-important">
+                    <div class="container">
+                        <div class="row">
+                            <div class="8u">
+                                <h2>¿QUÉ ES CORTES DEL SURESTE?</h2>
+                                <a href="#" class="image full"><img src="images/carne.jpeg" alt="" /></a>
+                                <span><b>Somos los mejores distribuidores de cortes de carne, los mejores cortes de la region sureste.</b></span>
+                                </section>
+                                <p>CARNE 100% MEXICANA Nuestra especialidad es la arrachera marinada La cual preparamos diariamente al alto vacío y con un marinador formulado especialmente para nuestra marca, lo que nos permite ofrecer un producto de extraordinario
+                                    sabor y consistencia. También contamos con los cortes americanos típicos como son Ribeye, Sirloin, New York, Cowboy, Tomahawk, Steakhouse, etc. De los cortes argentinos tenemos los más solicitados: Bife de chorizo,
+                                    Churrasco, Asado de tira, etc. Y también recientemente hemos incorporado el corte brasileño conocido como Picanha. Nuestra canasta de productos es una excelente opción para preparar una parrillada, ya sea al aire libre
+                                    o en casa, para convivir con familiares o con amigos.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div id="sidebar" class="4u">
+                    <section>
+                        <form>
+                            <center>
+                                <h1>otras preguntas</h1>
+                                <hr/>
+                                <P title="Como se procesa un corte?">- <b>Como se proocesa un corte?</b></P>
+                                <P title="Que nutrientes aportan las carnes?">- Que nutrientes aportan las carnes?</P>
+                                <P title="Hay cortes de carne roja mejores que otros?">- Hay cortes de carne roja mejores que otros?</P>
+                                <P title="CÓMO SE PUEDEN DISMINUIR LOS RIESGOS
+                                AL COCINAR A LA PARRILLA?">- CÓMO SE PUEDEN DISMINUIR LOS RIESGOS AL COCINAR A LA PARRILLA?</P>
+                        </form>
+                    </section>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div id="copyright">
+        <div class="container">
+            <h2>CONTACTANOS</h2>
+            <hr/> LINEA DE ATENCIÓN: <a href="#" title="telefono movil">(+52) 961 190 71 83</a> | CORREO: <a href="#" title="Correo electronico">cortes del sureste@gmail.com</a><br/> COPYRIGHT © 2022 -<a target="_blank" : href="../index.html" title="Cortes del surete">Cortes del sureste</a>            UNIVERSIDAD POLITECNICA DE CHIAPAS - <a target="_blank" : href="https://www.upchiapas.edu.mx/" title="UpChiapas">UP chiapas</a>
+
+        </div>
+    </div>
+
+    <script>
+        let user = window.localStorage.getItem("usuario");
+        if (user) {
+            let login = document.getElementById("login-link");
+            let registro = document.getElementById("register-link");
+            let link1 = document.getElementById("link1");
+            let link2 = document.getElementById("link2");
+            login.remove();
+            registro.remove();
+            link1.remove();
+            link2.remove();
+        } else {
+            let me = document.getElementById("me");
+            me.remove();
+        }
+    </script>
+
+</body>
+
+</body>
+
+</html>

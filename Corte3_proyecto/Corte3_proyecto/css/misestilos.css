@@ -1,0 +1,23 @@
+header {
+    color: red;
+    font-family: Impact;
+}
+
+body {
+    height: 800px;
+    background-image: url("https://s03.s3c.es/imag/_v0/4928x3264/a/5/0/Fondos-activos.jpg");
+    background-size: cover;
+    background-size: 25rem;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+button {
+    text-align: center;
+    color: white;
+    background-color: rgb(15, 211, 32);
+    padding: 5px;
+    font-size: 18px;
+    font-family: Impact;
+}

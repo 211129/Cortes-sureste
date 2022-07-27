@@ -1,0 +1,82 @@
+﻿<!DOCTYPE HTML>
+<html lang="mx">
+
+<head>
+    <title>CORTES DEL SURESTE</title>
+    <link rel="icon" type="image/x-icon" href="images/icocarne.jpg">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <link href='http://fonts.googleapis.com/css?family=Arimo:400,700' rel='stylesheet' type='text/css'>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/skel.min.js"></script>
+    <script src="js/skel-panels.min.js"></script>
+    <script src="js/init.js"></script>
+    <noscript>
+			<link rel="stylesheet" href="css/skel-noscript.css" />
+			<link rel="stylesheet" href="Css/style.css" />
+			<link rel="stylesheet" href="css/style-desktop.css" />
+		</noscript>
+
+</head>
+
+<body class="homepage">
+
+
+    <div id="header">
+        <div class="container">
+
+
+            <div id="logo">
+                <h1><a href="index.html">CORTES DEL SURESTE</a></h1>
+                <span>Los mejores cortes de la region</span>
+            </div>
+
+            <nav id="nav">
+                <ul>
+                    <li class="active"><a href="index.html">INCIO</a></li>
+                    <li><a href="producto.html">PRODUCTOS</a></li>
+                    <li><a href="Fag.html">Preguntas frecuentes</a></li>
+                    <li id="login-link"><a href="login.html">Login</a></li>
+                    <li id="register-link"><a href="register.html">Registro</a></li>
+                    <li id="me"><a href="yo.html">Yo</a></li>
+                </ul>
+            </nav>
+            <h2>Calidad desde 1999</h2>
+        </div>
+    </div>
+
+
+
+    <div id="copyright">
+        <div class="container">
+            <h2>CONTACTANOS</h2>
+            <div class="container">
+                <a id="link1" class="auth-btn" href="#">Registrate</a> | <a id="link2" class="auth-btn" href="#">Inicia Sesion</a>
+            </div>
+            <hr/> LINEA DE ATENCIÓN: <a href="#" title="telefono movil">(+52) 961 190 71 83</a> | CORREO: <a href="#" title="Correo electronico">Cortesdelsuertes@gmail.com</a><br/> COPYRIGHT © 2022 -<a target="_blank" : href="../index.html" title="Cortes del sureste">Cortes del sureste</a>            UNIVERSIDAD POLITECNICA DE CHIAPAS - <a target="_blank" : href="https://www.upchiapas.edu.mx/" title="UpChiapas">Up Chiapas</a>
+
+        </div>
+    </div>
+
+    <script>
+        let user = window.localStorage.getItem("usuario");
+        if (user) {
+            let login = document.getElementById("login-link");
+            let registro = document.getElementById("register-link");
+            let link1 = document.getElementById("link1");
+            let link2 = document.getElementById("link2");
+            login.remove();
+            registro.remove();
+            link1.remove();
+            link2.remove();
+        } else {
+            let me = document.getElementById("me");
+            me.remove();
+        }
+    </script>
+
+
+</body>
+
+</html>
